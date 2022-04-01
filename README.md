@@ -1,0 +1,2 @@
+# rosbag_resize
+修改rosbag和rostopic中图像分辨率，发布新的topic并保存到rosbag
