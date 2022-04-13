@@ -134,3 +134,9 @@ target_link_libraries(rosbag_resize ${catkin_LIBRARIES}  ${PCL_LIBRARIES} ${Open
 
 add_executable(rostopic_resize src/rostopic_resize.cpp)
 target_link_libraries(rostopic_resize ${catkin_LIBRARIES}  ${PCL_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(rec_publish_imu_node src/rec_publish_imu_node.cpp)
+target_link_libraries(rec_publish_imu_node ${catkin_LIBRARIES})
+
+add_executable(rec_publish_gps_node src/rec_publish_gps_node.cpp)
+target_link_libraries(rec_publish_gps_node ${catkin_LIBRARIES})
